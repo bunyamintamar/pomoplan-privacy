@@ -1,99 +1,71 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PomoPlan Privacy Policy</title>
-    <style>
-      body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
-      h1 { color: #e53935; }
-      h2 { margin-top: 32px; }
-    </style>
-  </head>
-  <body>
-    <h1>PomoPlan Privacy Policy</h1>
-    <p><strong>Last updated:</strong> April 8, 2026</p>
-    <p>PomoPlan ("we", "our", or "the app") is a productivity app developed by OdakStudio. This policy explains how we handle your data.</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PomoPlan Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+    h1 { color: #e53935; }
+    h2 { margin-top: 32px; }
+    h3 { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>PomoPlan Privacy Policy</h1>
+  <p><strong>Last updated:</strong> May 21, 2026</p>
+  <p>PomoPlan ("we", "our", or "the app") is a productivity app developed by OdakStudio. This policy explains how we handle your data.</p>
 
-    <h2>Data We Collect</h2>
-    <p>PomoPlan stores all tasks, habits, Pomodoro sessions, and settings <strong>locally on your device</strong>. We do not collect or transmit this data to our servers.</p>
+  <h2>Data We Collect</h2>
+  <p>PomoPlan stores all tasks, habits, Pomodoro sessions, and settings <strong>locally on your device</strong>. We do not collect or transmit this data to our servers.</p>
 
-    <h2>Cloud Backup</h2>
-    <p>If you choose to use the cloud backup feature, your data is saved to your personal Google Drive account. We do not have access to your Google Drive or the backed-up data. This
-  feature requires Google Sign-In.</p>
+  <h2>Cloud Backup</h2>
+  <p>If you choose to use the cloud backup feature, your data is saved to your personal Google Drive account. We do not have access to your Google Drive or the backed-up data. This feature requires Google Sign-In.</p>
 
-    <h2>Advertising</h2>
-    <p>The free version of PomoPlan displays ads served by <strong>Google AdMob</strong>. AdMob may collect and use your advertising ID and device information to serve personalized
-  ads. You can learn more at <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+  <h2>Advertising</h2>
+  <p>The free version of PomoPlan displays ads served by <strong>Google AdMob</strong>. AdMob may collect and use your advertising ID and device information to serve personalized ads. You can learn more at <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 
-    <h2>In-App Purchases</h2>
-    <p>Premium subscriptions and one-time purchases are processed through <strong>Google Play</strong> and managed by <strong>RevenueCat</strong>. We do not store your payment
-  information. RevenueCat's privacy policy is available at <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+  <h2>In-App Purchases</h2>
+  <p>Premium subscriptions and one-time purchases are processed through <strong>Google Play</strong> and managed by <strong>RevenueCat</strong>. We do not store your payment information. RevenueCat's privacy policy is available at <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
 
-    <h2>Permissions</h2>
-    <ul>
-      <li><strong>Notifications:</strong> Used for Pomodoro timer alerts and daily reminders.</li>
-      <li><strong>Foreground Service:</strong> Used to keep the timer running when the app is in the background.</li>
-      <li><strong>Boot Completed:</strong> Used to restore scheduled reminders after device restart.</li>
-    </ul>
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Notifications:</strong> Used for Pomodoro timer alerts and daily reminders.</li>
+    <li><strong>Foreground Service:</strong> Used to keep the timer running when the app is in the background.</li>
+    <li><strong>Boot Completed:</strong> Used to restore scheduled reminders after device restart.</li>
+  </ul>
 
-    <h2>Children's Privacy</h2>
-    <p>PomoPlan is not directed at children under 13. We do not knowingly collect personal information from children.</p>
+  <h2>Accessibility Service (Strict Mode)</h2>
+  <p>PomoPlan includes an <strong>optional</strong> feature called <strong>Strict Mode</strong>, which uses Android's Accessibility Service API. This feature is <strong>off by default</strong> and the app works fully without it. It must be turned on manually by the user from Settings, after reading and accepting an in-app disclosure dialog.</p>
 
-    <h2>Changes to This Policy</h2>
-    <p>We may update this policy from time to time. Changes will be reflected by the "Last updated" date above.</p>
+  <h3>What data is accessed</h3>
+  <p>While a focus session is active and Strict Mode is enabled, the service receives only the <strong>package name</strong> (e.g. <code>com.example.app</code>) of the app that comes to the foreground. The service does <strong>not</strong> read screen content, text on the screen, typed input, notifications, or any other on-screen information. This is enforced at the manifest level via <code>android:canRetrieveWindowContent="false"</code>, and the service listens only to <code>typeWindowStateChanged</code> events.</p>
 
-    <h2>Contact</h2>
-    <p>If you have any questions, please contact us at <a href="mailto:info.pomoplan@gmail.com">info.pomoplan@gmail.com</a>.</p>
-  </body>
-  </html>
-  EOF)
-  ⎿  <!DOCTYPE html>
-     <html lang="en">
-     <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>PomoPlan Privacy Policy</title>
-       <style>
-         body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
-         h1 { color: #e53935; }
-         h2 { margin-top: 32px; }
-       </style>
-     </head>
-     <body>
-       <h1>PomoPlan Privacy Policy</h1>
-       <p><strong>Last updated:</strong> April 8, 2026</p>
-       <p>PomoPlan ("we", "our", or "the app") is a productivity app developed by OdakStudio. This policy explains how we handle your data.</p>
+  <h3>Why we use it</h3>
+  <p>When the user opens a different app during an active focus session, PomoPlan detects the package switch in real time and brings the user back to PomoPlan, helping them stay focused. We considered Android's <code>UsageStatsManager</code> API as an alternative, but it provides delayed and sampled data and cannot reliably trigger a real-time response to a package change, which is required for this feature to be useful.</p>
 
-       <h2>Data We Collect</h2>
-       <p>PomoPlan stores all tasks, habits, Pomodoro sessions, and settings <strong>locally on your device</strong>. We do not collect or transmit this data to our servers.</p>
+  <h3>How the data is handled</h3>
+  <ul>
+    <li>Processed <strong>only in memory</strong> on your device.</li>
+    <li>Processed <strong>only</strong> while a focus session is active and Strict Mode is enabled.</li>
+    <li><strong>Never</strong> written to disk, logs, or any persistent storage.</li>
+    <li><strong>Never</strong> transmitted off the device, to our servers, or to any third party.</li>
+    <li><strong>Not</strong> used for analytics, advertising, profiling, or any purpose other than the in-session redirect described above.</li>
+  </ul>
 
-       <h2>Cloud Backup</h2>
-       <p>If you choose to use the cloud backup feature, your data is saved to your personal Google Drive account. We do not have access to your Google Drive or the backed-up data.
-     This feature requires Google Sign-In.</p>
+  <h3>Why this is not an accessibility tool</h3>
+  <p>PomoPlan's Accessibility Service is declared with <code>android:isAccessibilityTool="false"</code> because Strict Mode is a productivity feature, not a tool that assists users with disabilities.</p>
 
-       <h2>Advertising</h2>
-       <p>The free version of PomoPlan displays ads served by <strong>Google AdMob</strong>. AdMob may collect and use your advertising ID and device information to serve personalized
-     ads. You can learn more at <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+  <h3>How to revoke</h3>
+  <p>You can disable Strict Mode at any time from <em>Settings → Strict Mode</em> inside PomoPlan, or by turning the service off in <em>Android Settings → Accessibility → Installed services → PomoPlan Strict Mode</em>.</p>
 
-       <h2>In-App Purchases</h2>
-       <p>Premium subscriptions and one-time purchases are processed through <strong>Google Play</strong> and managed by <strong>RevenueCat</strong>. We do not store your payment
-     information. RevenueCat's privacy policy is available at <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+  <h2>Children's Privacy</h2>
+  <p>PomoPlan is not directed at children under 13. We do not knowingly collect personal information from children.</p>
 
-       <h2>Permissions</h2>
-       <ul>
-         <li><strong>Notifications:</strong> Used for Pomodoro timer alerts and daily reminders.</li>
-         <li><strong>Foreground Service:</strong> Used to keep the timer running when the app is in the background.</li>
-         <li><strong>Boot Completed:</strong> Used to restore scheduled reminders after device restart.</li>
-       </ul>
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy from time to time. Changes will be reflected by the "Last updated" date above.</p>
 
-       <h2>Children's Privacy</h2>
-       <p>PomoPlan is not directed at children under 13. We do not knowingly collect personal information from children.</p>
-
-       <h2>Changes to This Policy</h2>
-       <p>We may update this policy from time to time. Changes will be reflected by the "Last updated" date above.</p>
-
-       <h2>Contact</h2>
-       <p>If you have any questions, please contact us at <a href="mailto:info.pomoplan@gmail.com">info.pomoplan@gmail.com</a>.</p>
-     </body>
-     </html>
+  <h2>Contact</h2>
+  <p>If you have any questions, please contact us at <a href="mailto:info.pomoplan@gmail.com">info.pomoplan@gmail.com</a>.</p>
+</body>
+</html>
