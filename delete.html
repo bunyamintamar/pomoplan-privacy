@@ -1,41 +1,53 @@
-<!DOCTYPE html>                                                                                                                                                                       
-  <html lang="en">
-  <head>                                                                                                                                                                                
-    <meta charset="UTF-8">                                        
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">                                                                                                              
-    <title>PomoPlan - Data Deletion</title>                       
-    <style>                                                                                                                                                                             
-      body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
-      h1 { color: #e53935; }                                                                                                                                                            
-      h2 { margin-top: 32px; }                                    
-      ol li { margin-bottom: 8px; }                                                                                                                                                     
-    </style>                                                      
-  </head>                                                                                                                                                                               
-  <body>                                                                                                                                                                                
-    <h1>PomoPlan - Data Deletion Request</h1>
-                                                                                                                                                                                        
-    <p>PomoPlan does not maintain any server-side user accounts. All your data (tasks, habits, sessions, settings) is stored <strong>locally on your device</strong>.</p>               
-   
-    <h2>How to Delete Your Data</h2>                                                                                                                                                    
-                                                                  
-    <h3>Option 1 – Delete all local data</h3>                                                                                                                                           
-    <ol>
-      <li>Go to your device's <strong>Settings → Apps → PomoPlan</strong></li>                                                                                                          
-      <li>Tap <strong>Clear Data</strong></li>                                                                                                                                          
-      <li>All local data will be permanently deleted</li>
-    </ol>                                                                                                                                                                               
-                                                                  
-    <h3>Option 2 – Uninstall the app</h3>                                                                                                                                               
-    <p>Uninstalling PomoPlan removes all locally stored data from your device.</p>
-                                                                                                                                                                                        
-    <h2>Cloud Backup Data</h2>                                                                                                                                                          
-    <p>If you used the cloud backup feature, your backup is stored in <strong>your personal Google Drive</strong> under the folder <code>PomoPlan</code>. To delete it:</p>             
-    <ol>                                                                                                                                                                                
-      <li>Open <strong>Google Drive</strong></li>                                                                                                                                       
-      <li>Find and delete the <strong>PomoPlan</strong> folder</li>                                                                                                                     
-    </ol>                                                                                                                                                                               
-                                                                  
-    <h2>Contact</h2>                                                                                                                                                                    
-    <p>For further assistance, contact us at <a href="mailto:info.pomoplan@gmail.com">info.pomoplan@gmail.com</a>.</p>
-  </body>                                                                                                                                                                               
-  </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PomoPlan - Data Deletion Instructions</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+    h1 { color: #e53935; }
+    h2 { margin-top: 32px; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+    h3 { margin-top: 20px; }
+    ol li { margin-bottom: 8px; }
+    a { color: #e53935; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code { background: #f4f4f4; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h1>PomoPlan - Data Deletion Instructions</h1>
+
+  <p>PomoPlan is designed with a <strong>privacy-first, local-first</strong> architecture. We do not operate remote servers with user databases, nor do we require or maintain proprietary cloud user accounts. All your personal data (tasks, habits, focus sessions, and settings) is stored <strong>locally on your device</strong>.</p>
+
+  <h2>How to Delete Your Local Data</h2>
+
+  <h3>For iOS (iPhone & iPad):</h3>
+  <ul>
+    <li><strong>In-App Reset:</strong> Open PomoPlan, navigate to <em>Settings → Danger Zone → Reset to Defaults</em>. This clears all app preferences, tasks, habits, and sessions.</li>
+    <li><strong>Full Device Sandbox Wipe:</strong> Uninstalling the PomoPlan app from your iOS device immediately and permanently deletes all local sandbox database files, documents, and cached data managed by the app.</li>
+  </ul>
+
+  <h3>For Android:</h3>
+  <ol>
+    <li>Go to your device's <strong>Settings → Apps → PomoPlan</strong></li>
+    <li>Tap <strong>Storage & cache → Clear Storage (Clear Data)</strong></li>
+    <li>All local app database files and preferences will be permanently wiped.</li>
+    <li>Alternatively, uninstalling PomoPlan removes all local application data.</li>
+  </ol>
+
+  <h2>Cloud Backup Data (Google Drive)</h2>
+  <p>If you enabled the optional Google Drive backup feature, your encrypted backup archive is stored in <strong>your personal Google Drive</strong> under the <code>PomoPlan</code> folder. To permanently delete it:</p>
+  <ol>
+    <li>Open the <strong>Google Drive</strong> app or visit <a href="https://drive.google.com" target="_blank" rel="noopener">drive.google.com</a>.</li>
+    <li>Search for the <strong>PomoPlan</strong> folder (or locate <code>pomoplan_backup.json</code>).</li>
+    <li>Delete the folder and empty your Google Drive Trash.</li>
+    <li>You can also revoke PomoPlan's access anytime at <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account Permissions</a>.</li>
+  </ol>
+
+  <h2>Contact & Data Support</h2>
+  <p>For any questions or further assistance regarding your data, please contact us at <a href="mailto:info.pomoplan@gmail.com">info.pomoplan@gmail.com</a>.</p>
+
+  <p style="margin-top: 40px;"><a href="index.html">← Back to Privacy Policy</a></p>
+</body>
+</html>
